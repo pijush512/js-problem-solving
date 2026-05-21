@@ -2,10 +2,10 @@
 
 function evenOrOdd (number) {
   if(number % 2 === 0){
-    return "Even Numner";
+    return `${number} is Even Number`;
   }
   else {
-    return "Odd Number";
+    return `${number} is Odd Number`;
   }
 }
 
