@@ -1,4 +1,4 @@
-//Write a function that takes a temperature in Celsius and converts it to Fahrenheit.
+//!Write a function that takes a temperature in Celsius and converts it to Fahrenheit.
 
 function CelsiusToFahrenheit (celsius) {
   let fahrenheit = (celsius * 1.8) + 32;
@@ -6,3 +6,10 @@ function CelsiusToFahrenheit (celsius) {
 }
 
 console.log(CelsiusToFahrenheit(20));
+
+// const celsiusToFahrenheit = (celsius) => {
+//   let fahrenheit = (celsius * 1.8) + 32;
+//   return fahrenheit;
+// }
+
+// console.log(celsiusToFahrenheit(10));
