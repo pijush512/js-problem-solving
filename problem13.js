@@ -2,7 +2,8 @@
 
 
 function reverseArr (arr) {
-  return arr.reverse();
+  const reverse = arr.reverse();
+  return reverse;
 } 
 
 console.log(reverseArr ([1,2,3,4]));
